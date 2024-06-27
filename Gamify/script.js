@@ -8,7 +8,6 @@ let isgameover = false;
 const changeTurn = ()=>{
     return turn === "X"? "0": "X"
 }
-
 const checkWin = ()=>{
     let boxtext = document.getElementsByClassName('boxtext');
     let wins = [
