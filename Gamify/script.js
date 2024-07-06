@@ -30,7 +30,6 @@ const checkWin = ()=>{
         }
     })
 }
-
 let boxes = document.getElementsByClassName("box");
 Array.from(boxes).forEach(element =>{
     let boxtext = element.querySelector('.boxtext');
@@ -46,8 +45,6 @@ Array.from(boxes).forEach(element =>{
         }
     })
 })
-
-
 reset.addEventListener('click', ()=>{
     let boxtexts = document.querySelectorAll('.boxtext');
     Array.from(boxtexts).forEach(element => {
